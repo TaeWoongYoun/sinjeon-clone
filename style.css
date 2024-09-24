@@ -8,6 +8,11 @@ ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .sgin_area{
     width: 100%;
     height: 40px;
@@ -184,4 +189,85 @@ nav ul li:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
+}
+
+.content2{
+    width: 100%;
+    height: 600px;
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content2_area{
+    width: 1440px;
+    height: 500px;
+    display: flex;
+    padding: 10px;
+}
+
+.content2_txt{
+    width: 50%;
+    height: 100%;
+}
+
+.content2_txt h1{
+    color: #FF8088;
+    font-size: 54px;
+}
+
+.content2_txt h2{
+    font-size: 48px;
+}
+
+.content2_txt h2 span{
+    color: #FF8088;
+}
+
+.content2_txt .txt1{
+    color: #FF8088;
+    font-weight: bold;
+    line-height: 60px;
+    padding-top: 40px;
+    font-size: 18px;
+}
+
+.content2_txt .txt2{
+    color: #999999;
+}
+
+.content2_txt .line{
+    width: 100%;
+    height: 0.5px;
+    background-color: #999999;
+    margin-top: 30px;
+}
+
+.content2_txt .add{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #999999;
+}
+
+.content2_txt .add .plus{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content2_img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.content2_img img{
+    width: 650px;
+    height: 450px;
+    border-radius: 50px 0;
 }
