@@ -119,6 +119,11 @@ nav ul li:hover{
     justify-content: center;
 }
 
+.char img{
+    width: 90%;
+    height: 90%;
+}
+
 .visual{
     width: 100%;
     height: 800px;
