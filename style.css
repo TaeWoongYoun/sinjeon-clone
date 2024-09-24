@@ -121,3 +121,67 @@ nav ul li:hover{
     justify-content: center;
     background-color: #000;
 }
+
+.content{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-color: #fff;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-content: center;
+    font-size: 200px;
+    font-weight: bolder;
+    color: #F9F9F9;
+    z-index: 1;
+}
+
+.content h1{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 200px;
+    font-size: 48px;
+    z-index: 2;
+}
+
+.content h2{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-content: center;
+    font-size: 56px;
+    color: #FF8088;
+    z-index: 2;
+}
+
+.description{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 30px;
+    color: #999999;
+    font-size: 20px;
+    font-weight: bolder;
+    z-index: 2;
+}
+
+#char{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
