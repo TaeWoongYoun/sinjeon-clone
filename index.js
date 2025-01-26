@@ -8,7 +8,7 @@ function toggleLanguage() {
         document.getElementById("activities-title").innerText = "Special Activities";
         document.getElementById("login-btn").innerText = "LOGIN";
         document.getElementById("join-btn").innerText = "JOIN";
-        document.getElementById("kor-btn").innerText = "ENG";
+        document.getElementById("kor-btn").innerText = "KOR";
 
         document.getElementById("gyeongju-title").innerText = "GYEONGJU";
         document.getElementById("apec-title").innerText = "APEC GYEONGJU ITEM";
@@ -39,12 +39,12 @@ function toggleLanguage() {
         document.getElementById("tour-title").innerText = "관광 명소";
         document.getElementById("food-title").innerText = "특별한 음식";
         document.getElementById("activities-title").innerText = "특별한 활동";
-        document.getElementById("login-btn").innerText = "LOGIN";
-        document.getElementById("join-btn").innerText = "JOIN";
-        document.getElementById("kor-btn").innerText = "KOR";
+        document.getElementById("login-btn").innerText = "로그인";
+        document.getElementById("join-btn").innerText = "회원가입";
+        document.getElementById("kor-btn").innerText = "ENG";
 
-        document.getElementById("gyeongju-title").innerText = "경주";
-        document.getElementById("apec-title").innerText = "APEC 경주 아이템";
+        document.getElementById("gyeongju-title").innerText = "GYEONGJU";
+        document.getElementById("apec-title").innerText = "APEC GYEONGJU ITEM";
         document.getElementById("apec-description").innerHTML = "세계가 기억할, <br>완벽한 경주가 됩니다.";
 
         document.getElementById("cheomseongdae-title").innerHTML = "세계에서 가장 오래된 천문대<br><span>첨성대</span>";
